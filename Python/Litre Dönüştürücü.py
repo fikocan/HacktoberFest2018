@@ -9,7 +9,7 @@ kenar3 = int(input("3.kenarı giriniz:"))
 hacimCM3 = kenar1*kenar2*kenar3
 
 #Prizmanın hacmini litre cinsinden heaplıyoruz:
-hacimL = hacimCM3
+hacimL = hacimCM3/1000.0
 
 #Çıktıyı alıyoruz:
 print("Litre cinsinden hacmimiz: ", hacimL)
