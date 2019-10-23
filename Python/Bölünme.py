@@ -10,3 +10,9 @@ else:
 #GÖREV:Yukarıda verilen örenğin benzerini üçe bölünebilme ile yapınız:
 #!!!Python programlama dilinde boşluklar programın çalışması için önem arz etmektedir.
 #Yukarıdaki örneği baz alarak görevi yerine getirebilirsiniz.
+
+sayi = int(input("Sayınızı girin: "))
+if a%3==0:
+   print(a,"3'e bölünen bir sayıdır.")
+else:
+   print(a,"3'e bölünen bir sayı değildir.")
